@@ -1,0 +1,101 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main {
+    margin-top: -21px;
+}
+
+.topo {
+    background:linear-gradient(to right, #aa80ff,rgb(219, 129, 25));
+    height: 56px;
+    width: 100%;
+    box-shadow: 0 0 10px #333;
+}
+
+.logo {
+    width: 150px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    padding: 5px;
+}
+
+.conteudo {
+    height: 650px;
+    background-color: #6E61CE;
+    
+}
+
+.imagem {
+    padding-top: 120px; 
+    display:flex;
+    justify-content: center; 
+    margin-top: 0; 
+}
+.conteudoi {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.62671rem;
+    font-weight: 700;
+}
+
+.conteudoii {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.turma {
+    float: right;
+    margin-top: 65px;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    margin-right: 25px;
+}
+#principal {
+    width:100%;
+    background-color:rgb(209, 128, 21);
+    height: 210px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+
+}
+
+.janela1 {
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:20%;
+    height: 55%;
+
+}
+.janela2 {
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    width:20%;
+    height: 55%; 
+
+}
+
+.janela3 {
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:20%;
+    height: 55%;
+
+}
