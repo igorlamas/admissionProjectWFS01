@@ -25,7 +25,7 @@ main {
 }
 
 .conteudo {
-    height: 650px;
+    height: 850px;
     background-color: #6E61CE;
     
 }
@@ -62,7 +62,7 @@ main {
 #principal {
     width:100%;
     background-color:rgb(209, 128, 21);
-    height: 210px;
+    height: 270px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -78,7 +78,6 @@ main {
     align-items: center;
     width:20%;
     height: 55%;
-
 }
 .janela2 {
     background-color:#ffffff;
@@ -98,4 +97,30 @@ main {
     width:20%;
     height: 55%;
 
+}
+
+.emailf {  
+    text-align: center;
+    padding-top: 86px;
+}
+input[type="email"] {
+    font-size: 35px;
+    padding: 12px;
+    margin-left: 20px;
+   
+}
+
+::-webkit-input-placeholder {
+    font-size: 40px;
+    text-align: center;
+    margin-right: 20px;
+}
+.btn, h1, p {
+    color: #ffffff;
+}
+.btn {
+    background-color: #cd4d00;
+    height: 80px;
+    width: 240px;
+    font-size: 36px;
 }
