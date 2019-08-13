@@ -7,9 +7,18 @@
     <link rel="stylesheet" type="text/css" href="..//admissionProjectWFS01/css/main.css">
 
     <script>
-        function retornaremail() {
-            var retornar = "O email " + document.getElementById("email").value + " foi enviado!";
-            alert(retornar);
+        function validaForm() {
+            var x = document.forms["formValidacao"]["email"].value;
+            var atpos = x.indexOf("@");
+            var dotpos = x.lastIndexOf(".");
+
+            if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= x.length) {
+                alert("E-mail não válido, verifique!");
+                return false;
+            } else {
+                alert("Bem-vindo " + (email).value + " !");
+                return true;
+            }
         }
     </script>
 </head>
@@ -33,10 +42,9 @@
             <section class="janela3">JavaScript</section>
         </div>
 
-        <form method='post' action='enviar_email.php' class="emailf">
-            <input type="text" name="email" id="email" size="30px" required
-                placeholder="Coloque aqui o seu email"><input class="btn" type="button" value="Enviar" id="enviar"
-                name="enviar" onclick="retornaremail()">
+        <form name="formValidacao" onsubmit="return validaForm();" method="post">
+            <input type="text" name="email" id="email" size="30px" placeholder="Coloque aqui o seu email"><input
+                type="submit" value="Enviar" class="submit">
         </form>
 
     </main>
